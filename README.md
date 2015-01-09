@@ -1,4 +1,4 @@
-bs-time-pick  [![Build Status](https://travis-ci.org/blittle/bower-installer.png?branch=master)](https://travis-ci.org/blittle/bower-installer)
+bs-time-pick  [![Build Status](https://travis-ci.org/Beanstalkhq/bs-time-pick.png?branch=master)](https://travis-ci.org/Beanstalkhq/bs-time-pick)
 ============
 
 A basic time picking directive for entering and validating the time of day.
