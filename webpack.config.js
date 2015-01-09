@@ -4,10 +4,10 @@ var ngminPlugin = require('ngmin-webpack-plugin');
 
 
 module.exports = {
-  entry: "./src/angular-time-pick.js",
+  entry: "./src/bs-time-pick.js",
   output: {
     path: './build',
-    filename: 'angular-time-pick.js'
+    filename: 'bs-time-pick.js'
   },
   module: {
     loaders: [

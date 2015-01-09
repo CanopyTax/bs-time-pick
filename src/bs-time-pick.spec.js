@@ -8,7 +8,7 @@ describe("Angular time pick", function() {
     dateFilter = $filter('date');
     elm = angular.element(
       '<div>' +
-        '<input type="input" bs-time-pick ng-model="value" ng-model-options=\'{ updateOn: "blur" }\'>' +
+        '<input type="text" bs-time-pick ng-model="value" ng-model-options=\'{ updateOn: "blur" }\'>' +
         '<span>{{ value | date:"h:mm a" }}</span>' +
       '</div>'
     );

@@ -2,7 +2,7 @@
   "name": "angular-time-pick",
   "version": "1.0.0",
   "description": "An angular directive time picker.",
-  "main": "angular-time-pick.js",
+  "main": "build/bs-time-pick.js",
   "scripts": {
     "test": "node node_modules/karma/bin/karma start",
     "build": "webpack --optimize-minimize"
