@@ -30,6 +30,6 @@ Options:
  
 ## Example
 ```html
-  <input type="text" ng-model="myDate" ng-model-options={ updateOn: "blur" } />
+  <input type="text" bs-time-pick ng-model="myDate" ng-model-options={ updateOn: "blur" } />
   {{ myDate | date:"h:mm a" }}
 ```
