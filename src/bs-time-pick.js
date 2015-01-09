@@ -75,7 +75,7 @@ atp.directive("bsTimePick", [ '$filter', function($filter) {
         } else {
           invalid = true;
           el.val("");
-          shakeElement(4, 5, 300);
+          shakeElement(attr.bsShakeCount || 4, attr.bsShakeDistance || 5, attr.bsShakeDuration || 300);
           return ngModel.$modelValue;
         }
       }
